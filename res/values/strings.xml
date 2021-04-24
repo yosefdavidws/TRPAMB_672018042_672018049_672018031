@@ -12,4 +12,15 @@
     <string name="daftar">Buat Akun</string>
     <string name="sudahpunyaakun">Sudah punya akun?</string>
     <string name="login"><a href="login_register.class">Login</a></string>
+    <string name="jual">Jual</string>
+    <string name="beli">Beli</string>
+    <string name="kembali">kembali</string>
+    <string name="btc_grafik">btc_grafik</string>
+    <string name="rp">Rp.</string>
+    <string name="saldo"> Saldo  :</string>
+    <string name="btc">Masukkan jumlah BTC</string>
+    <string name="eth">Masukkan jumlah ETH</string>
+    <string name="bnb">Masukkan jumlah BNB</string>
+    <string name="link">Masukkan jumlah LINK</string>
+    <string name="yfi">Masukkan jumlah YFI</string>
 </resources>
