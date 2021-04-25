@@ -1,0 +1,110 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:adjustViewBounds="true"
+            android:cropToPadding="true"
+            android:src="@drawable/warna_oren"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnKembali"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="@string/kembali"
+        android:textSize="6pt"
+        android:onClick="kembali11"
+        android:fontFamily="sans-serif-condensed-light" />
+
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="600dp"
+        android:fontFamily="sans-serif-black"
+        android:text="BNB"
+        android:textSize="12pt" />
+
+    <TextView
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="550dp"
+        android:fontFamily="sans-serif-black"
+        android:text="  Rp.8.150.200"
+        android:textSize="10pt" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="71dp"
+        android:layout_marginBottom="450dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/saldo"
+        android:textSize="9pt"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="71dp" />
+
+    <TextView
+        android:id="@+id/sisasaldokoin"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="450dp"
+        android:fontFamily="sans-serif-black"
+        android:textSize="9pt" />
+
+    <EditText
+        android:id="@+id/editTextjualbnb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="375dp"
+        android:hint="@string/bnb"
+        android:inputType="numberDecimal"
+        android:textSize="12pt" />
+
+
+    <Button
+        android:id="@+id/btnBeli"
+        android:layout_width="160dp"
+        android:layout_height="72dp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="250dp"
+        android:fontFamily="sans-serif-condensed-light"
+
+        android:text="@string/jual"
+        android:textSize="10pt"
+        android:onClick="jualbnb1"
+        app:backgroundTint="#D52B53"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/warna_biru" />
+
+    </LinearLayout>
+
+</RelativeLayout>

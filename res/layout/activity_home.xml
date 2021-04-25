@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/nama_aplikasi"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="CryptoTD"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-black"
+            android:textSize="16dp"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/email"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:padding="20dp"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:paddingLeft="15dp"
+            android:id="@+id/lampu"
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:src="@drawable/lightbulb" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lampu"
+            android:text="Academy"/>
+
+        <ImageView
+            android:id="@+id/dompet"
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="60dp"
+            android:layout_toRightOf="@+id/lampu"
+            android:src="@drawable/wallett" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dompet"
+            android:text="@string/nabung"
+            android:layout_marginLeft="85dp"/>
+
+        <ImageView
+            android:id="@+id/notif"
+            android:layout_width="45dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="210dp"
+            android:src="@drawable/bell"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/notif"
+            android:text="Price Alert"
+            android:layout_marginLeft="200dp"/>
+
+        <ImageView
+            android:id="@+id/group"
+            android:layout_width="45dp"
+            android:layout_height="33dp"
+            android:layout_marginLeft="300dp"
+            android:src="@drawable/group"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/group"
+            android:text="@string/komunitas"
+            android:layout_marginLeft="290dp"/>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="310dp"
+        android:padding="20dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+     <RelativeLayout
+         android:id="@+id/bitcoin"
+         android:layout_width="match_parent"
+         android:layout_height="55dp"
+         android:gravity="center_vertical"
+         android:orientation="vertical"
+         android:clickable="true">
+
+         <Button
+             android:id="@+id/bitcoinlogo"
+             android:layout_width="30dp"
+             android:layout_height="30dp"
+             android:background="@drawable/bitcoin"
+             android:layout_marginLeft="10dp"
+             android:onClick="btn_btcc"/>
+
+         <TextView
+             android:id="@+id/btc"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_toRightOf="@+id/bitcoinlogo"
+             android:text="Bitcoin"
+             android:textStyle="bold"
+             android:paddingLeft="10dp"/>
+
+         <TextView
+             android:id="@+id/btcc"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/btc"
+             android:layout_toRightOf="@+id/bitcoinlogo"
+             android:paddingLeft="10dp"
+             android:text="BTC"/>
+
+         <TextView
+             android:id="@+id/hargabtc"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_toRightOf="@+id/btc"
+             android:text="Rp 761.536.000"
+             android:paddingLeft="150dp"/>
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textColor="@color/green"
+             android:text="2.59%"
+             android:textStyle="bold"
+             android:layout_below="@+id/hargabtc"
+             android:layout_toRightOf="@+id/btcc"
+             android:paddingLeft="230dp"/>
+
+
+
+
+
+
+     </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/ethereum"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:clickable="true">
+
+            <Button
+                android:id="@+id/ethlogo"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/ethereum"
+                android:layout_marginLeft="10dp"
+                android:onClick="btn_eth"/>
+
+            <TextView
+                android:id="@+id/eth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/ethlogo"
+                android:text="Ethereum"
+                android:textStyle="bold"
+                android:paddingLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/ethh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/eth"
+                android:layout_toRightOf="@+id/ethlogo"
+                android:paddingLeft="10dp"
+                android:text="ETH"/>
+
+            <TextView
+                android:id="@+id/hargaeth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/eth"
+                android:text="Rp 34.016.000"
+                android:paddingLeft="141dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/red"
+                android:text="3.03%"
+                android:textStyle="bold"
+                android:layout_below="@+id/hargaeth"
+                android:layout_toRightOf="@+id/ethh"
+                android:paddingLeft="230dp"/>
+
+
+
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/binance"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:clickable="true">
+
+            <Button
+                android:id="@+id/bnblogo"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/binance"
+                android:layout_marginLeft="10dp"
+                android:onClick="btn_bnb"/>
+
+            <TextView
+                android:id="@+id/bnb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/bnblogo"
+                android:text="Binance Coin"
+                android:textStyle="bold"
+                android:paddingLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/bnbb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bnb"
+                android:layout_toRightOf="@+id/bnblogo"
+                android:paddingLeft="10dp"
+                android:text="BNB"/>
+
+            <TextView
+                android:id="@+id/hargabnb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/bnb"
+                android:text="Rp 7.700.008"
+                android:paddingLeft="130dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/green"
+                android:text="1.31%"
+                android:textStyle="bold"
+                android:layout_below="@+id/hargabnb"
+                android:layout_toRightOf="@+id/bnbb"
+                android:paddingLeft="230dp"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/link"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:clickable="true">
+
+            <Button
+                android:id="@+id/linklogo"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/chainlink"
+                android:layout_marginLeft="10dp"
+                android:onClick="btn_link"/>
+
+            <TextView
+                android:id="@+id/lnk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/linklogo"
+                android:text="Chainlink"
+                android:textStyle="bold"
+                android:paddingLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/lnkk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lnk"
+                android:layout_toRightOf="@+id/linklogo"
+                android:paddingLeft="10dp"
+                android:text="LINK"/>
+
+            <TextView
+                android:id="@+id/hargalnk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/lnk"
+                android:text="Rp 498.000"
+                android:paddingLeft="165dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/green"
+                android:text="4.33%"
+                android:textStyle="bold"
+                android:layout_below="@+id/hargalnk"
+                android:layout_toRightOf="@+id/lnkk"
+                android:paddingLeft="230dp"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/yearn"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:clickable="true">
+
+            <Button
+                android:id="@+id/yearnlogo"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/yfi"
+                android:layout_marginLeft="10dp"
+                android:onClick="btn_yfi"/>
+
+            <TextView
+                android:id="@+id/yfi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/yearnlogo"
+                android:text="Yearn.finance"
+                android:textStyle="bold"
+                android:paddingLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/yfii"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/yfi"
+                android:layout_toRightOf="@+id/yearnlogo"
+                android:paddingLeft="10dp"
+                android:text="YFI"/>
+
+            <TextView
+                android:id="@+id/hargayfi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/yfi"
+                android:text="Rp 619.558.780"
+                android:paddingLeft="110dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/red"
+                android:text="3.72%"
+                android:textStyle="bold"
+                android:layout_below="@+id/hargayfi"
+                android:layout_toRightOf="@+id/yfii"
+                android:paddingLeft="240dp"/>
+
+        </RelativeLayout>
+
+
+
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp">
+
+        <Button
+            android:id="@+id/home"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/home"
+            android:onClick="btn_home"/>
+
+        <Button
+            android:id="@+id/berita"
+            android:layout_marginTop="50dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_toRightOf="@id/home"
+            android:onClick="btn_berita"
+            android:background="@drawable/book"/>
+
+        <Button
+            android:id="@+id/wallet"
+            android:layout_marginTop="50dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_toRightOf="@+id/berita"
+            android:onClick="btn_wallet"
+            android:background="@drawable/wallet1"/>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_toRightOf="@+id/wallet"
+            android:onClick="btn_akun"
+            android:background="@drawable/person"/>
+
+
+    </RelativeLayout>
+
+
+
+
+
+</LinearLayout>
