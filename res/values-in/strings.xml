@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CryptoTD_2</string>
+    <string name="title_home">Rumah</string>
+    <string name="title_dashboard">Papan Menu</string>
+    <string name="title_notifications">Pengumuman</string>
+    <string name="berita">Berita</string>
+    <string name="jual">Jual</string>
+    <string name="beli">Beli</string>
+    <string name="kembali">kembali</string>
+    <string name="btc_grafik">btc_grafik</string>
+    <string name="rp">Rp.</string>
+    <string name="saldo"> Saldo  :</string>
+    <string name="btc">Masukkan jumlah BTC</string>
+    <string name="eth">Masukkan jumlah ETH</string>
+    <string name="bnb">Masukkan jumlah BNB</string>
+    <string name="link">Masukkan jumlah LINK</string>
+    <string name="yfi">Masukkan jumlah YFI</string>
+
+    <string name="username">Nama Pengguna</string>
+    <string name="password">Kata Sandi</string>
+    <string name="ingatkan">Ingatkan</string>
+    <string name="masuk">Masuk</string>
+    <string name="buatakun">Belum punya akun?</string>
+    <string name="signup"><a href="buat_akun">Buat akun</a></string>
+    <string name="confirmpassword">Konfirmasi Password</string>
+    <string name="daftar">Daftar</string>
+    <string name="sudahpunyaakun">Sudah punya akun?</string>
+    <string name="login"><a href="login">Masuk</a></string>
+    <string name="nama">Nama Kamu</string>
+    <string name="rekening">Rekening Bank Saya</string>
+    <string name="buku">Buku Alamat Saya</string>
+    <string name="alamat">Belum ada alamat tersimpan</string>
+    <string name="bantuan">Pusat Bantuan</string>
+    <string name="bahasa">Bahasa</string>
+    <string name="keluar">Keluar</string>
+    <string name="nabung">Nabung Rutin</string>
+    <string name="komunitas">Komunitas</string>
+
+    <string name="beranda">Beranda</string>
+    <string name="akun">Profile</string>
+    <string name="dompet">Dompet</string>
+    <string name="beritaterkini">Berita Terkini</string>
+    <string name="beritaETH">Harga ETH Bisa Mencapai</string>
+    <string name="beritaETHH">Rp46 Juta?</string>
+    <string name="title_activity_profile_setting">MainActivity</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <string name="sumber1">Blockchain Media Indonesia. 21 jam yang lalu</string>
+    <string name="beritaxrp">CEO Ripple Labs</string>
+    <string name="beritaxrpp">Mempertimbangkan Burn XRP</string>
+    <string name="sumber2">Blockchain Media Indonesia. 22 jam yang lalu</string>
+    <string name="beritacoinvestasi">Saat Crypto Hapuskan</string>
+    <string name="beritacoinvestasii">Kesenjangan Gender</string>
+    <string name="sumber3">Coinvestasi. 1 hari yang lalu</string>
+    <string name="coinvestasi">3 Platform Copy Trading dan</string>
+    <string name="coinvestasii">Alasan Menggunakan Copy Trading</string>
+    <string name="btt">Bangun Pagi, BTT Naik</string>
+    <string name="bttt">Mendaki Rp106</string>
+    <string name="sumber4">Blockchain Media Indonesia. 1 hari yang lalu</string>
+    <string name="aset">Total Nilai Aset</string>
+    <string name="portofolio">Portofolio Kamu</string>
+    <string name="noaset">Anda Belum Memiliki Aset Apapun</string>
+    <string name="detail">Lihat Detail</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

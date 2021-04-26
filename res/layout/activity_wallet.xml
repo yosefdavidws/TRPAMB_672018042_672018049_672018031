@@ -1,0 +1,360 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:padding="20dp"
+        android:background="#FECE2F">
+
+        <TextView
+            android:id="@+id/aset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-light"
+            android:text="@string/aset"
+            android:textSize="22dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/aset"
+            android:paddingTop="10dp"
+            android:textSize="25dp"
+            android:text="Rp 10.000.000,00"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-black"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="656dp"
+            android:layout_marginTop="160dp"
+            android:adjustViewBounds="false"
+            android:scaleType="matrix"
+            android:src="@drawable/biru" />
+
+        <ImageView
+            android:id="@+id/btc"
+            android:layout_width="64dp"
+            android:layout_height="49dp"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="61dp"
+            android:src="@drawable/bitcoin"
+            tools:layout_editor_absoluteX="12dp"
+            tools:layout_editor_absoluteY="123dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="89dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="62dp"
+            android:layout_toRightOf="@id/btc"
+            android:text="BitCoin"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView3"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="-5dp"
+            android:layout_toRightOf="@id/btc"
+            android:text="Btc"
+
+            android:textSize="16dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="102dp"
+            android:layout_marginTop="65dp"
+            android:layout_toRightOf="@id/textView3"
+            android:text="BTC 0,008"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView7"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="-8dp"
+            android:layout_toRightOf="@id/btc"
+            android:text="Rp 2.000.000"
+            android:textColor="@color/purple_500"
+            android:textSize="16dp"
+            android:textStyle="italic" />
+
+        <ImageView
+            android:id="@+id/uni"
+            android:layout_width="67dp"
+            android:layout_height="49dp"
+            android:layout_below="@id/btc"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="11dp"
+            android:src="@drawable/chainlink" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView4"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="23dp"
+            android:layout_toRightOf="@id/uni"
+            android:text="Chainlink"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView5"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="-4dp"
+            android:layout_toRightOf="@id/uni"
+            android:text="Link"
+            android:textSize="16dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/unii"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView4"
+            android:layout_marginLeft="197dp"
+            android:layout_marginTop="22dp"
+            android:layout_toRightOf="@id/uni"
+            android:text="LINK 3,89"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView9"
+            android:layout_marginLeft="196dp"
+            android:layout_marginTop="-68dp"
+            android:layout_toRightOf="@id/uni"
+            android:text="Rp 2.000.000"
+            android:textColor="@color/purple_500"
+            android:textSize="16dp"
+            android:textStyle="italic" />
+
+        <ImageView
+            android:id="@+id/yfi"
+            android:layout_width="65dp"
+            android:layout_height="43dp"
+            android:layout_below="@id/uni"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="11dp"
+            android:src="@drawable/yfi" />
+
+
+        <TextView
+            android:id="@+id/year"
+            android:layout_width="113dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView4"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="83dp"
+            android:layout_toRightOf="@id/uni"
+            android:text="YearFinance"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/finance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView5"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="52dp"
+            android:layout_toRightOf="@id/yfi"
+            android:text="Yfi"
+            android:textSize="16dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="64dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView4"
+            android:layout_marginLeft="197dp"
+            android:layout_marginTop="83dp"
+            android:layout_toRightOf="@id/uni"
+            android:text="YFI 0,09"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/totalaset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView9"
+            android:layout_marginLeft="176dp"
+            android:layout_marginTop="-9dp"
+            android:layout_toRightOf="@id/finance"
+            android:text="Rp 2.000.000"
+            android:textColor="@color/purple_500"
+            android:textSize="16dp"
+            android:textStyle="italic" />
+
+        <ImageView
+            android:id="@+id/binance"
+            android:layout_width="66dp"
+            android:layout_height="49dp"
+            android:layout_below="@id/yfi"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="11dp"
+            android:src="@drawable/binance" />
+
+        <TextView
+            android:id="@+id/binancecoin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/finance"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="17dp"
+            android:layout_toRightOf="@id/binance"
+            android:text="Binance Coin"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/bnb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/binancecoin"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="-7dp"
+            android:layout_toRightOf="@id/binance"
+            android:text="BNB"
+            android:textSize="16dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/bnb0"
+            android:layout_width="64dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/totalaset"
+            android:layout_marginLeft="196dp"
+            android:layout_marginTop="17dp"
+            android:layout_toRightOf="@id/uni"
+            android:text="BNB 0,4"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/bnb_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bnb0"
+            android:layout_marginLeft="196dp"
+            android:layout_marginTop="-5dp"
+            android:layout_toRightOf="@id/uni"
+            android:text="Rp 3.000.000"
+            android:textColor="@color/purple_500"
+            android:textSize="16dp"
+            android:textStyle="italic" />
+
+        <ImageView
+            android:id="@+id/ethereum"
+            android:layout_width="65dp"
+            android:layout_height="43dp"
+            android:layout_below="@id/bnb"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="21dp"
+            android:src="@drawable/ethereum" />
+
+        <TextView
+            android:id="@+id/ethe"
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/binancecoin"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="42dp"
+            android:layout_toRightOf="@id/ethereum"
+            android:text="Ethereum"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/eth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ethe"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="-7dp"
+            android:layout_toRightOf="@id/ethereum"
+            android:text="ETH"
+            android:textSize="16dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/eth0"
+            android:layout_width="92dp"
+            android:layout_height="38dp"
+            android:layout_below="@id/bnb"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="28dp"
+            android:layout_toRightOf="@id/ethe"
+            android:text="ETH 0,07"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/eth_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/eth0"
+            android:layout_marginLeft="198dp"
+            android:layout_marginTop="-22dp"
+            android:layout_toRightOf="@id/ethereum"
+            android:text="Rp 1.000.000"
+            android:textColor="@color/purple_500"
+            android:textSize="16dp"
+            android:textStyle="italic" />
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+</LinearLayout>
